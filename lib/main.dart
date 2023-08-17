@@ -1,7 +1,8 @@
 // import 'package:bottomnavigationbar/radio_button.dart';
 // import 'package:bottomnavigationbar/selecet_value.dart';
 // import 'package:bottomnavigationbar/bottom_nav.dart';
-import 'package:bottomnavigationbar/shared_preference.dart';
+import 'package:bottomnavigationbar/appbar_action.dart';
+// import 'package:bottomnavigationbar/shared_preference.dart';
 // import 'package:bottomnavigationbar/switch_widget.dart';
 
 import 'package:flutter/material.dart';
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Bottom navaigation bar",
-      home: new MySharedPreference(),
+      debugShowCheckedModeBanner: false,
+      home: new MyAppAction(),
     );
   }
 }
